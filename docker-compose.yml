@@ -52,13 +52,9 @@ services:
       WEBHOOK_URL: http://82.25.68.77:5678
       N8N_HOST: 0.0.0.0
       GENERIC_TIMEZONE: America/Sao_Paulo
-      N8N_LOG_LEVEL: debug
-      environment:
-      N8N_HOST: 0.0.0.0
       N8N_PORT: 5678
       N8N_PROTOCOL: http
       N8N_EDITOR_BASE_URL: http://82.25.68.77:5678
-      GENERIC_TIMEZONE: America/Sao_Paulo
       N8N_LOG_LEVEL: debug
       N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE: true
     volumes:
